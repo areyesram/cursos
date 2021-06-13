@@ -1,0 +1,23 @@
+.ball1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  border: solid 1px black;
+}
+
+.ball2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.ball3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+/*# sourceMappingURL=mixins.css.map */

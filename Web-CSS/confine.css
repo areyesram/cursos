@@ -1,0 +1,22 @@
+li > a {
+  text-decoration: none;
+}
+
+#sidebar li {
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  height: 2em;
+  margin: 8px;
+}
+#sidebar li > a {
+  border: solid 1px gainsboro;
+  background-color: lightgreen;
+  padding: 8px;
+  border-radius: 8px;
+}
+#sidebar li > a:hover {
+  color: magenta;
+}
+
+/*# sourceMappingURL=confine.css.map */

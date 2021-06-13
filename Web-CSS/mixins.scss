@@ -1,0 +1,19 @@
+@mixin ball($diam, $color) {
+    width: $diam;
+    height: $diam;
+    border-radius: 50%;
+    background-color: $color;
+}
+
+.ball1 {
+    @include ball(100px, red);
+    border: solid 1px black;
+}
+
+.ball2 {
+    @include ball(150px, green);
+}
+
+.ball3 {
+    @include ball(200px, blue);
+}

@@ -1,5 +1,14 @@
 *.suo
-bin
-obj
+**/bin/Debug
+**/bin/Release
+**/obj/Debug
+**/obj/Release
+**/obj/x86/Debug
+**/obj/x86/Release
+**/bin/*.dll
+**/bin/*.pdb
+**/bin/*.config
 packages
+
+package-lock.json
 node_modules

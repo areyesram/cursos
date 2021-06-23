@@ -1,0 +1,6 @@
+extends layout
+include ullist
+
+block content
+  -for (let o of data)
+    +list(o.caption, o.items)

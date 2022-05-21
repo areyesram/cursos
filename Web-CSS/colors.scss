@@ -1,0 +1,15 @@
+$SIZE: 150px;
+$BACK: cornflowerblue;
+
+#box {
+    width: $SIZE;
+    height: $SIZE;
+    background-color: $BACK;
+}
+
+#circle {
+    width: $SIZE;
+    height: $SIZE;
+    background-color: $BACK;
+    border-radius: 50%;
+}

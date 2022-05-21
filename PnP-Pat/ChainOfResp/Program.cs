@@ -17,6 +17,7 @@
             handler.ProcessRequest("blog.php");
             handler.ProcessRequest("reports.aspx");
             handler.ProcessRequest("chart.png");
+            handler.ProcessRequest("default.asp");
         }
     }
 }

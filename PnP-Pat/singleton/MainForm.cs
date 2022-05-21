@@ -17,7 +17,7 @@ namespace Ventus
 
         private void mnuSingleton_Click(object sender, EventArgs e)
         {
-            //ShowForm(new SingletonForm());
+            // ShowForm(new SingletonForm());
             ShowForm(SingletonForm.Instance);
         }
 

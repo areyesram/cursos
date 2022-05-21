@@ -12,6 +12,7 @@ namespace LoopSwitchSequence
             Test1C();
         }
 
+        //NO
         private static void Test1A()
         {
             if (!Step1())
@@ -42,6 +43,7 @@ namespace LoopSwitchSequence
             Console.WriteLine("Done!");
         }
 
+        // NO
         private static void Test1B()
         {
             for (var step = 0; step < 5; step++)
@@ -74,6 +76,7 @@ namespace LoopSwitchSequence
             Console.WriteLine("Done!");
         }
 
+        //YES
         private static void Test1C()
         {
             var steps = new List<Func<bool>>
@@ -95,6 +98,8 @@ namespace LoopSwitchSequence
             }
             Console.WriteLine("Done!");
         }
+
+        //--
 
         private static bool Step1()
         {

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1972
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingByException", "CodingByException\CodingByException.csproj", "{CD86525B-EB67-45D3-A4B4-18FA0B52537C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardCoding", "HardCoding\HardCoding.csproj", "{7C3C1217-CAC7-40BC-A198-49F8F2622C67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopSwitchSequence", "LoopSwitchSequence\LoopSwitchSequence.csproj", "{202241B0-3F7B-4923-A489-EB6304068A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialCoupling", "SequentialCoupling\SequentialCoupling.csproj", "{B3CD742D-9C9D-4205-A808-1EBD41C3668C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{202241B0-3F7B-4923-A489-EB6304068A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202241B0-3F7B-4923-A489-EB6304068A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202241B0-3F7B-4923-A489-EB6304068A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CD742D-9C9D-4205-A808-1EBD41C3668C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CD742D-9C9D-4205-A808-1EBD41C3668C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CD742D-9C9D-4205-A808-1EBD41C3668C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CD742D-9C9D-4205-A808-1EBD41C3668C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C72EE27-9FF6-48F2-9A0D-4F4146512D66}
 	EndGlobalSection
 EndGlobal

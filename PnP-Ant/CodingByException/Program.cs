@@ -72,6 +72,5 @@ namespace CodingByException
                 Console.WriteLine("Error: 's' no es un entero válido.");
             }
         }
-
     }
 }

@@ -7,6 +7,7 @@ namespace Ventus
         public int Compare(int x, int y)
         {
             //return y.CompareTo(x);
+            //return y - x;
             if (x == y)
                 return 0;
             if (x < y)
